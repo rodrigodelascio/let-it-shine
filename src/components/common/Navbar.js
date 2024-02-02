@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/images/Logo_Let_It_Shine_noText.png";
+import logo from "../../assets/images/Logo_Let_It_Shine.png";
 import { CgMenu, CgClose } from "react-icons/cg";
 import styles from "./Navbar.module.css";
 

@@ -22,6 +22,7 @@
 
 .footer-logo {
   width: 75px;
+  padding-left: 1rem;
 }
 
 .footer-logo:hover {
@@ -30,7 +31,7 @@
 }
 
 .footer-text {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   line-height: 0;
 }
 
