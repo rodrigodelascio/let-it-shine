@@ -1,11 +1,7 @@
 import React from "react";
 
 const App = () => {
-  return (
-    <p>
-      Edit <code>src/App.js</code> and save to reload.
-    </p>
-  );
+  return <p>Hello, world!</p>;
 };
 
 export default App;
