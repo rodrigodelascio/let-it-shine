@@ -12,6 +12,11 @@ body {
   color: #0c0c0c;
   font-size: 16px;
   font-weight: 400;
+  letter-spacing: 0.5px;
+
+  * {
+    box-sizing: border-box;
+  }
 
   h1,
   h2,

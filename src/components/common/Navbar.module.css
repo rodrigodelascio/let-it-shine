@@ -1,18 +1,96 @@
+.navbar-wrapper {
+  width: 100vw;
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
   list-style: none;
-  padding: 1rem 3rem;
+  padding: 0.5rem 3rem;
 }
 
 .nav-link {
   color: #0c0c0c;
   text-decoration: none;
   font-weight: 900;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 7.5px;
+  text-decoration-thickness: 3.5px;
+  color: #438451;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-logo {
   width: 75px;
+  cursor: pointer;
 }
+
+.nav-logo:hover {
+  transform: scale(1.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-menu-icon,
+.hamburger-close-icon {
+  cursor: pointer;
+}
+
+.hamburger-menu-container,
+.hamburger-close-icon {
+  display: none;
+}
+
+/*
+
+.hamburger-close-icon:hover,
+.hamburger-menu-icon:hover {
+  transform: scale(1.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-close-icon:hover {
+  color: #bde3df;
+}
+
+.hamburger-menu-icon:hover {
+  color: #438451;
+}
+
+.responsive-navbar {
+  width: 87.8vw;
+  background: #0c0c0c;
+  color: #faf9f6;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -2%;
+  left: 0;
+  line-height: 3.5rem;
+  transition: 2s;
+  transform: translateY(-100vh); 
+}
+
+.responsive-navbar :nth-child(3) {
+  display: none;
+}
+
+.hamburger-menu-container {
+  display: flex;
+  justify-content: right;
+  padding: 2.5% 6.1%;
+}
+
+.hamburger-close-icon {
+  display: flex;
+  position: absolute;
+  right: 6%;
+  top: 10%;
+}
+
+*/
