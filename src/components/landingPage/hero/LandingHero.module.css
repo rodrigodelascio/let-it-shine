@@ -19,28 +19,54 @@
 
 .hero-container h2 {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 600;
+  line-height: 1rem;
+  color: #438451;
+}
+
+.hero-buttons-wrapper {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero-button-a,
+.hero-button-b {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  width: 7.5rem;
+  border: solid 1.5px #0c0c0c;
+}
+
+.hero-button-a {
+  background: #bde3df;
+  color: #0c0c0c;
+}
+
+.hero-button-b {
+  background: none;
 }
 
 .hero-socials {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.5rem;
-  margin: 3rem 0;
-  padding-left: 3rem;
+  gap: 1rem;
+  margin: 4rem 0;
+  padding-left: 4rem;
   width: 10vw;
 }
 
 .hero-socials a {
-  background: #0c0c0c;
+  border: solid 1.5px #0c0c0c;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #faf9f6;
+  color: #0c0c0c;
 }
 
 .hero-socials a:hover {
