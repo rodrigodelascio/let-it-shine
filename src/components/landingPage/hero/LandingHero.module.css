@@ -8,20 +8,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5vh 0;
+  padding: 7.5vh 0;
 }
 
 .hero-container h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 900;
   line-height: 0;
 }
 
 .hero-container h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   line-height: 1rem;
-  color: #438451;
+  /* color: #438451; */
 }
 
 .hero-buttons-wrapper {
@@ -40,7 +40,8 @@
 }
 
 .hero-button-a {
-  background: #bde3df;
+  /* background: #bde3df; */
+  background: none;
   color: #0c0c0c;
 }
 
