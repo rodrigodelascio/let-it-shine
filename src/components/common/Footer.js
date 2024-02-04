@@ -12,7 +12,7 @@ const Footer = () => {
           <img src={logo} alt="logo" className={styles["footer-logo"]} />
         </Link>
         <p className={styles["footer-text"]}>
-          © {currentYear} Let It Shine Services
+          © {currentYear} Let It Shine Services Ltd
         </p>
       </section>
       <section className={styles["footer-links-container"]}>
