@@ -1,4 +1,5 @@
 import styles from "./LandingHero.module.css";
+import { Link } from "react-router-dom";
 import {
   BiLogoInstagramAlt,
   BiLogoFacebook,
@@ -12,13 +13,17 @@ const LandingHero = () => {
         <h1>Cleaning services</h1>
         <h2>For your workplace or home</h2>
         <p>
-          Let It Shine! Elevate your environment with our expert touch, because
-          your space deserves to shine as bright as you do. Discover a new
-          standard of clean with us.
+          Elevate your environment with our expert touch, because your space
+          deserves to shine as bright as you do. Discover a new standard of
+          clean with us. Let It Shine!
         </p>
         <div className={styles["hero-buttons-wrapper"]}>
-          <button className={styles["hero-button-a"]}>BUTTON 1</button>
-          <button className={styles["hero-button-b"]}>BUTTON 2</button>
+          <Link to="/services" className={styles["hero-button-link"]}>
+            <button className={styles["hero-button-a"]}>Our Services</button>
+          </Link>
+          <Link to="/contact" className={styles["hero-button-link"]}>
+            <button className={styles["hero-button-b"]}>Contact Us</button>
+          </Link>
         </div>
       </section>
       <section className={styles["hero-lower-section-container"]}>

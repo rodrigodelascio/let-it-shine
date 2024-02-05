@@ -1,3 +1,7 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .hero-wrapper {
   width: 100%;
   min-height: 75vh;
@@ -21,7 +25,6 @@
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 1rem;
-  /* color: #438451; */
 }
 
 .hero-container p {
@@ -40,25 +43,40 @@
 .hero-button-a,
 .hero-button-b {
   cursor: pointer;
-  border-radius: 0.5rem;
-  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
   width: 7.5rem;
   border: solid 1.5px #0c0c0c;
+  font-size: 0.75rem;
+  font-weight: 700;
 }
 
 .hero-button-a {
   background: none;
-  color: #0c0c0c;
+  background: #0c0c0c;
+  color: #faf9f6;
 }
 
 .hero-button-b {
-  background: none;
+  background: #faf9f6;
+}
+
+.hero-button-a:hover {
+  background: #bde3df;
+  border: #faf9f6 solid 1.5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-button-b:hover {
+  border: #bde3df solid 1.5px;
+  color: #bde3df;
+  transition: all 0.3s ease-in-out;
 }
 
 .hero-lower-section-container {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 3rem 4rem 4rem;
+  padding: 2rem 3rem 3rem 4rem;
 }
 
 .hero-socials {
