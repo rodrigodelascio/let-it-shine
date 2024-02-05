@@ -1,0 +1,12 @@
+.services-wrapper {
+  width: 100%;
+  min-height: 95vh;
+  display: flex;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+  margin-top: 5rem;
+}

@@ -1,10 +1,6 @@
-* {
-  font-family: "Poppins", sans-serif;
-}
-
 .hero-wrapper {
   width: 100%;
-  min-height: 75vh;
+  min-height: 77.5vh;
 }
 
 .hero-container {
@@ -13,18 +9,15 @@
   justify-content: center;
   align-items: center;
   padding: 3.5rem 10rem;
+  margin-top: 2.5rem;
 }
 
 .hero-container h1 {
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 0;
+  line-height: 5rem;
 }
 
 .hero-container h2 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  line-height: 1rem;
+  line-height: 5rem;
 }
 
 .hero-container p {
@@ -32,6 +25,7 @@
   font-weight: 400;
   text-align: center;
   line-height: 2rem;
+  padding: 1.5rem 5rem;
 }
 
 .hero-buttons-wrapper {
@@ -83,7 +77,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .hero-socials a {
