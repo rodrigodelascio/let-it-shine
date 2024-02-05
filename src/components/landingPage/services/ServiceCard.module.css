@@ -1,0 +1,19 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 1.5px solid #0c0c0c;
+  border-radius: 10px;
+  background: #faf9f6;
+}
+
+.card-number-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid #0c0c0c;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin-right: 2rem;
+}

@@ -4,9 +4,15 @@
   display: flex;
 }
 
-.services-container {
+.services-container,
+.services-cards-container {
   display: flex;
   flex-direction: column;
   padding: 0 4rem;
   margin-top: 5rem;
+  width: 50%;
+}
+
+.services-cards-container {
+  gap: 3rem;
 }
