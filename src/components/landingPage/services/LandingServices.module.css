@@ -1,5 +1,6 @@
 .services-wrapper {
   min-height: 95vh;
+  position: relative;
   display: flex;
   justify-content: space-between;
   background: linear-gradient(
@@ -24,6 +25,7 @@
 
 .services-cards-container {
   width: 50%;
+  padding-right: 8vw;
 }
 
 .services-header-container {
@@ -69,19 +71,32 @@
 
 .services-cards-container {
   gap: 5vh;
+  z-index: 2;
 }
 
 .green-number {
   background: #2a9d8f;
-  color: #fff;
+  color: #faf9f6;
 }
 
 .blue-number {
   background: #0081a7;
-  color: #fff;
+  color: #faf9f6;
 }
 
 .orange-number {
   background: #f4a261;
-  color: #fff;
+  color: #faf9f6;
+}
+
+.services-polka-dots {
+  background-image: radial-gradient(#0081a7 20%, #faf9f600 20%);
+  background-position: 0 0;
+  background-size: 15px 15px;
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  right: 5vw;
+  bottom: 15vh;
+  z-index: 1;
 }

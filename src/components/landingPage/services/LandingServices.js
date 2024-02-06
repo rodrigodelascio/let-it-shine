@@ -44,6 +44,7 @@ const LandingServices = () => {
           className={styles["orange-number"]}
         />
       </section>
+      <div className={styles["services-polka-dots"]}></div>
     </div>
   );
 };
