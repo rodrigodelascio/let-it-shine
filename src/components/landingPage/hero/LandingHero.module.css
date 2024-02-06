@@ -1,7 +1,7 @@
 .hero-wrapper {
   min-height: 80vh;
   background-image: url(../../../assets/images/landingBG.png);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: 100%;
 }

@@ -5,17 +5,17 @@
 }
 
 body {
-  margin: 0;
-  line-height: 1.5;
   background: #faf9f6;
   color: #0c0c0c;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.5px;
+  line-height: 1.5;
 }
 
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
   box-sizing: border-box;
 }
 

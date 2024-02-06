@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 4rem;
+  padding: 4vh 6vw;
   height: 40vh;
+  background: #0080a739;
   background: linear-gradient(
-    -10deg,
+    to left top,
     #d3faefed 0%,
     #d3faf9ed 50%,
     #fbfbebed 100%
@@ -23,6 +24,7 @@
 .footer-logo {
   width: 75px;
   padding-left: 1rem;
+  opacity: 0.85;
 }
 
 .footer-logo:hover {
@@ -33,6 +35,7 @@
 .footer-text {
   font-size: 0.6rem;
   line-height: 0;
+  color: #0c0c0c;
 }
 
 .footer-links-container {
