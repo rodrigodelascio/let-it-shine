@@ -1,13 +1,9 @@
-.navbar-wrapper {
-  width: 100vw;
-}
-
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding: 1rem 4rem;
+  padding: 4vh 6vw;
 }
 
 .nav-link {
@@ -28,6 +24,7 @@
 .nav-logo {
   width: 125px;
   cursor: pointer;
+  opacity: 0.85;
 }
 
 .nav-logo:hover {

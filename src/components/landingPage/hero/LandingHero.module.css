@@ -1,6 +1,9 @@
 .hero-wrapper {
-  width: 100%;
-  min-height: 77.5vh;
+  min-height: 80vh;
+  background-image: url(../../../assets/images/landingBG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .hero-container {
@@ -8,8 +11,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3.5rem 10rem;
-  margin-top: 2.5rem;
+  padding: 6vh 10vw 3vh 10vw;
+}
+
+.hero-container h1,
+.hero-container h2,
+.hero-container p {
+  color: #0c0c0c;
 }
 
 .hero-container h1 {
@@ -25,52 +33,53 @@
   font-weight: 400;
   text-align: center;
   line-height: 2rem;
-  padding: 1.5rem 5rem;
+  padding: 2vh 6vw;
 }
 
 .hero-buttons-wrapper {
   display: flex;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 2.5vh;
 }
 
 .hero-button-a,
 .hero-button-b {
   cursor: pointer;
-  border-radius: 10px;
-  padding: 0.85rem 1rem;
-  width: 7.5rem;
-  border: solid 1.5px #0c0c0c;
+  border-radius: 15px;
+  padding: 1rem;
+  width: 8rem;
   font-size: 0.75rem;
   font-weight: 700;
 }
 
 .hero-button-a {
-  background: none;
-  background: #0c0c0c;
+  background: #2a9d8f;
   color: #faf9f6;
+  border: solid 1.5px #2a9d8f;
 }
 
 .hero-button-b {
   background: #faf9f6;
+  color: #f4a261;
+  border: solid 1.5px #f4a261;
 }
 
 .hero-button-a:hover {
-  background: #bde3df;
-  border: #faf9f6 solid 1.5px;
+  background: #264653;
+  border: #264653 solid 1.5px;
   transition: all 0.3s ease-in-out;
 }
 
 .hero-button-b:hover {
-  border: #bde3df solid 1.5px;
-  color: #bde3df;
+  background: #f4a261;
+  color: #faf9f6;
   transition: all 0.3s ease-in-out;
 }
 
 .hero-lower-section-container {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 3rem 3rem 4rem;
+  padding: 6vh 6vw;
 }
 
 .hero-socials {
@@ -92,9 +101,8 @@
 }
 
 .hero-socials a:hover {
-  background: #bde3df;
-  border: #438451 solid 1.5px;
-  color: #438451;
+  border: #2a9d8f solid 1.5px;
+  color: #2a9d8f;
   transform: scale(1.15);
   transition: all 0.3s ease-in-out;
 }
@@ -106,9 +114,10 @@
 .hero-scroll-down-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   gap: 2.5rem;
+  padding: 0.25vh 0;
 }
 
 .scroll-down-icon {

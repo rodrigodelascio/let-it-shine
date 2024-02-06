@@ -6,6 +6,7 @@ import {
   BiLogoYoutube,
   BiMouse,
 } from "react-icons/bi";
+
 const LandingHero = () => {
   return (
     <div className={styles["hero-wrapper"]}>
