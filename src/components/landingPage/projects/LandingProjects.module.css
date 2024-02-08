@@ -1,5 +1,24 @@
 .projects-wrapper {
   min-height: 95vh;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-header-container {
+  padding: 4vh 6vw;
+  margin-top: 10vh;
+}
+
+.projects-header-container h1 {
+  text-align: center;
+  padding: 0 15vw;
+}
+
+.projects-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2vw;
+  padding: 4vh 6vw;
 }
