@@ -66,12 +66,14 @@
 }
 
 .cleaning-products {
-  padding: 4vh 2vw;
+  padding: 4vh 3vw 4vh 0;
+  margin-bottom: 6vh;
 }
 
 .services-cards-container {
   gap: 5vh;
   z-index: 2;
+  flex-wrap: wrap;
 }
 
 .green-number {
@@ -97,6 +99,6 @@
   width: 150px;
   position: absolute;
   right: 5vw;
-  bottom: 15vh;
+  bottom: 12.5rem;
   z-index: 1;
 }

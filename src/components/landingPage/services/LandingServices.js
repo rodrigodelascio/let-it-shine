@@ -1,7 +1,7 @@
 import styles from "./LandingServices.module.css";
 import ServiceCard from "./ServiceCard";
 import { BsDashLg } from "react-icons/bs";
-import cleaningProducts from "../../../assets/images/wepik-export-20240206155722Dzmx.png";
+import cleaningProducts from "../../../assets/images/products.png";
 
 const LandingServices = () => {
   return (
