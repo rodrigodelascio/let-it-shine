@@ -1,9 +1,9 @@
 .hero-wrapper {
   min-height: 80vh;
-  background-image: url(../../../assets/images/landingBG.png);
+  /* background-image: url(../../../assets/images/landingBG.png);
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%; */
 }
 
 .hero-container {
@@ -12,6 +12,10 @@
   justify-content: center;
   align-items: center;
   padding: 6vh 10vw 3vh 10vw;
+  background-image: url(../../../assets/images/landingBG1.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .hero-container h1,
@@ -81,6 +85,10 @@
   display: flex;
   justify-content: space-between;
   padding: 6vh 6vw;
+  background-image: url(../../../assets/images/landingBG2.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .hero-socials {
