@@ -9,15 +9,15 @@
 }
 
 .card-image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 20rem;
   width: 100%;
   overflow: hidden;
+  border-radius: 7.5px;
 }
 
-.card-image {
+.card-image-container img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -26,6 +26,7 @@
   flex-direction: column;
   gap: 2rem;
   align-items: flex-end;
+  margin-top: 1.5rem;
 }
 
 .card-text-container h3 {

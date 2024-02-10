@@ -2,12 +2,10 @@ import styles from "./ProjectCard.module.css";
 import { Link } from "react-router-dom";
 import { GoArrowUpRight } from "react-icons/go";
 
-const ProjectCard = ({ cardImage, projectTitle, className }) => {
+const ProjectCard = ({ cardImage, projectTitle }) => {
   return (
     <div className={styles["card-container"]}>
-      <div className={styles["card-image-container"] + " " + className}>
-        <div className={styles["card-image"]}>{cardImage}</div>
-      </div>
+      <div className={styles["card-image-container"]}>{cardImage}</div>
       <div className={styles["card-text-container"]}>
         <h3>{projectTitle}</h3>
         <Link to="/projects">
