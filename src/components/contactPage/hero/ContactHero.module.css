@@ -1,0 +1,19 @@
+.hero-container {
+  display: flex;
+  padding: 6vh 6vw 3vh 6vw;
+  height: 75vh;
+}
+
+.contact-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-text-wrapper h1 {
+  font-size: 2.5rem;
+}
+
+.contact-text-wrapper h2 {
+  font-size: 1.5rem;
+}
