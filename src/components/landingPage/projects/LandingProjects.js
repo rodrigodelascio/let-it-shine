@@ -24,7 +24,7 @@ const LandingProjects = () => {
           cardImage={<img src={handsClean} alt="hands cleaning a desk" />}
         />
         <ProjectCard
-          projectTitle={"LNullam vitae libero vel massa blandit"}
+          projectTitle={"Nullam vitae libero vel massa blandit"}
           cardImage={<img src={spongeClean} alt="sponge cleaning surface" />}
         />
       </div>
