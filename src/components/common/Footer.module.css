@@ -22,12 +22,35 @@
 }
 
 .footer-logo {
-  width: 75px;
+  width: 85px;
   padding-left: 1rem;
   opacity: 0.85;
 }
 
 .footer-logo:hover {
+  transform: scale(1.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-socials {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.hero-socials a {
+  border: solid 1.5px #0c0c0c;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0c0c0c;
+}
+
+.hero-socials a:hover {
+  border: #2a9d8f solid 1.5px;
+  color: #2a9d8f;
   transform: scale(1.15);
   transition: all 0.3s ease-in-out;
 }
