@@ -1,6 +1,6 @@
 .hero-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 6vh 8vw 3vh 8vw;
   min-height: 75vh;
 }
@@ -8,7 +8,8 @@
 .contact-text-wrapper {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-text-wrapper h1 {
@@ -19,9 +20,10 @@
 
 .contact-text-wrapper h2 {
   font-size: 1.5rem;
+  color: #264653;
 }
 
-.hero-image-wrapper {
+/* .hero-image-wrapper {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -32,13 +34,13 @@
 .hero-image {
   width: 85%;
   opacity: 0.9;
-}
+} */
 
 .form-wrapper {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 2vh 2vw;
+  padding: 6vh 2vw;
 }
 
 .form-wrapper form {
@@ -64,11 +66,13 @@ textarea {
 
 input {
   height: 2rem;
+  background: #faf9f6;
 }
 
 textarea {
   height: 10rem;
   resize: none;
+  background: #faf9f6;
 }
 
 input:focus,

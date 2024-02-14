@@ -6,13 +6,13 @@ const ContactHero = () => {
       <div className={styles["contact-text-wrapper"]}>
         <h1>We are here for you</h1>
         <h2>Let us know how we can help and we'll get back to you ASAP</h2>
-        <div className={styles["hero-image-wrapper"]}>
+        {/* <div className={styles["hero-image-wrapper"]}>
           <img
             src={cleaningBucket}
             alt="cleaning bucket"
             className={styles["hero-image"]}
           />
-        </div>
+        </div> */}
       </div>
       <div className={styles["form-wrapper"]}>
         <form>
