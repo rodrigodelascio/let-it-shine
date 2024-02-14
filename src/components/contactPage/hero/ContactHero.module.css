@@ -36,11 +36,17 @@
   opacity: 0.9;
 } */
 
+.lower-section-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 6vh 2vw;
+}
+
 .form-wrapper {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  padding: 6vh 2vw;
+  width: 60%;
 }
 
 .form-wrapper form {
@@ -100,4 +106,22 @@ textarea:focus {
 .form-submit-button:hover {
   background: #264653;
   border: none;
+}
+
+.contact-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.contact-details-wrapper h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 0.75rem;
+}
+
+.contact-details-wrapper p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-bottom: 1.5rem;
 }
