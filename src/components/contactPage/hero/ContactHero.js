@@ -1,18 +1,11 @@
 import styles from "./ContactHero.module.css";
-import cleaningBucket from "../../../assets/images/cleaningBucket.png";
+
 const ContactHero = () => {
   return (
     <div className={styles["hero-container"]}>
       <div className={styles["contact-text-wrapper"]}>
         <h1>We are here for you</h1>
         <h2>Let us know how we can help and we'll get back to you ASAP</h2>
-        {/* <div className={styles["hero-image-wrapper"]}>
-          <img
-            src={cleaningBucket}
-            alt="cleaning bucket"
-            className={styles["hero-image"]}
-          />
-        </div> */}
       </div>
       <div className={styles["lower-section-container"]}>
         <div className={styles["form-wrapper"]}>
@@ -21,6 +14,12 @@ const ContactHero = () => {
             <input type="text" name="user_name" required />
             <label>Email</label>
             <input type="email" name="user_email" required />
+            <label>Subject</label>
+            <select name="subject" required>
+              <option value="Home Cleaning">Home Cleaning</option>
+              <option value="Office Cleaning">Office Cleaning</option>
+              <option value="Other">Other</option>
+            </select>
             <label>Message</label>
             <textarea name="message" required />
             <div className={styles["form-submit-button-wrapper"]}>
@@ -36,16 +35,25 @@ const ContactHero = () => {
           <h3>Get In Touch</h3>
           <p>
             Don't hesitate to contact us, we'd love to hear from you. Ask us
-            anything, don't be shy. We are here for you, and to make your space
-            clean. Let It Shine!
-          </p>
-          <h3>Our Location</h3>
-          <p>
-            We don't have a physical office, but our main base is in
-            Walton-On-Thames.
+            anything, don't be shy. Let It Shine!
           </p>
           <h3>Contact Details</h3>
           <p>Email: 9D6zH@example.com</p>
+          <h3>Our Location</h3>
+          <p>
+            We don't have a physical office, but our main base is in
+            Walton-on-Thames.
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.9777531567624!2d-0.42355288764153964!3d51.38508691951346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48767500f0a36c31%3A0xb11428e73fb6c6a7!2sThe%20Heart%20Shopping%20Centre!5e0!3m2!1sen!2suk!4v1708011497751!5m2!1sen!2suk"
+            width="600"
+            height="500"
+            style={{ border: "0" }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="office location"
+          ></iframe>
         </div>
       </div>
     </div>
