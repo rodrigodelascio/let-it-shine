@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #faf9f6;
+  background: #fcfcfc;
   color: #0c0c0c;
   font-size: 16px;
   font-weight: 400;
@@ -81,7 +81,7 @@ textarea {
 }
 
 /* palette
-#faf9f6
+#fcfcfc
 #0c0c0c
 #264653
 #0081a7
@@ -93,7 +93,7 @@ textarea {
 background: linear-gradient(
   to left top,
   #fee2ebcf 0%,
-  #faf9f6 50%,
+  #fcfcfc 50%,
   #def7fad0 100%
 );
 */

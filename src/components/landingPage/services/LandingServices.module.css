@@ -6,7 +6,7 @@
   background: linear-gradient(
     to left top,
     #fee2ebcf 0%,
-    #faf9f6 50%,
+    #fcfcfc 50%,
     #def7fad0 100%
   );
 }
@@ -78,21 +78,21 @@
 
 .green-number {
   background: #2a9d8f;
-  color: #faf9f6;
+  color: #fcfcfc;
 }
 
 .blue-number {
   background: #0081a7;
-  color: #faf9f6;
+  color: #fcfcfc;
 }
 
 .orange-number {
   background: #f4a261;
-  color: #faf9f6;
+  color: #fcfcfc;
 }
 
 .services-polka-dots {
-  background-image: radial-gradient(#0081a7 20%, #faf9f600 20%);
+  background-image: radial-gradient(#0081a7 20%, #fcfcfc00 20%);
   background-position: 0 0;
   background-size: 15px 15px;
   height: 100px;

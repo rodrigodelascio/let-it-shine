@@ -59,12 +59,12 @@ select {
 
 input {
   height: 2.25rem;
-  background: #faf9f6;
+  background: #fcfcfc;
 }
 
 select {
   height: 2.5rem;
-  background: #faf9f6;
+  background: #fcfcfc;
   font-weight: 700;
   font-size: 0.75rem;
 }
@@ -72,7 +72,7 @@ select {
 textarea {
   height: 12.5rem;
   resize: none;
-  background: #faf9f6;
+  background: #fcfcfc;
 }
 
 input:focus,
@@ -90,7 +90,7 @@ select:focus {
 
 .form-submit-button {
   background: #2a9d8f;
-  color: #faf9f6;
+  color: #fcfcfc;
   border: none;
   cursor: pointer;
   margin-top: 1vh;

@@ -1,9 +1,5 @@
 .hero-wrapper {
   min-height: 80vh;
-  /* background-image: url(../../../assets/images/landingBG.png);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100%; */
 }
 
 .hero-container {
@@ -59,12 +55,12 @@
 
 .hero-button-a {
   background: #2a9d8f;
-  color: #faf9f6;
+  color: #fcfcfc;
   border: solid 1.5px #2a9d8f;
 }
 
 .hero-button-b {
-  background: #faf9f6;
+  background: #fcfcfc;
   color: #f4a261;
   border: solid 1.5px #f4a261;
 }
@@ -77,7 +73,7 @@
 
 .hero-button-b:hover {
   background: #f4a261;
-  color: #faf9f6;
+  color: #fcfcfc;
   transition: all 0.3s ease-in-out;
 }
 
