@@ -38,7 +38,7 @@ const ContactHero = () => {
             anything, don't be shy. Let It Shine!
           </p>
           <h3>Contact Details</h3>
-          <p>Email: 9D6zH@example.com</p>
+          <p>Email: contact.letitshinecs@gmail.com</p>
           <h3>Our Location</h3>
           <p>
             We don't have a physical office, but our main base is in
