@@ -4,7 +4,7 @@
   align-items: center;
   padding: 4vh 6vw;
   height: 40vh;
-  background: #0080a739;
+  background: var(--clr-blue);
   background: linear-gradient(
     to left top,
     #d3faefed 0%,
@@ -38,27 +38,31 @@
 }
 
 .hero-socials a {
-  border: solid 1.5px #0c0c0c;
+  border: solid 1.5px var(--clr-black);
   width: 25px;
   height: 25px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #0c0c0c;
+  color: var(--clr-black);
 }
 
 .hero-socials a:hover {
-  border: #2a9d8f solid 1.5px;
-  color: #2a9d8f;
+  border: var(--clr-green) solid 1.5px;
+  color: var(--clr-green);
   transform: scale(1.15);
   transition: all 0.3s ease-in-out;
 }
 
+.social-icon {
+  scale: 1.25;
+}
+
 .footer-text {
-  font-size: 0.6rem;
+  font-size: 1rem;
   line-height: 0;
-  color: #0c0c0c;
+  color: var(--clr-black);
 }
 
 .footer-links-container {
@@ -70,13 +74,11 @@
 }
 
 .footer-link {
-  text-decoration: none;
-  color: #0c0c0c;
-  font-size: 0.75rem;
-  cursor: pointer;
+  color: var(--clr-black);
+  font-size: 1.2rem;
 }
 
 .footer-link:hover {
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   transition: all 0.3s ease-in-out;
 }

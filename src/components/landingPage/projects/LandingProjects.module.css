@@ -14,24 +14,24 @@
 .projects-header-container h1 {
   text-align: center;
   padding: 0 25vw;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .projects-header-container span {
-  color: #0081a7;
+  color: var(--clr-blue);
 }
 
-.projects-polka-dots {
-  background-image: radial-gradient(#0081a7 20%, #fcfcfc00 20%);
+/* .projects-polka-dots {
+  background-image: radial-gradient(var(--clr-blue) 20%, #fcfcfc00 20%);
   background-position: 0 0;
   background-size: 15px 15px;
   height: 100px;
   width: 150px;
   position: absolute;
   right: 3vw;
-  top: 15rem;
+  top: 20rem;
   z-index: 1;
-}
+} */
 
 .projects-cards-container {
   display: flex;

@@ -15,31 +15,27 @@
 }
 
 .hero-container h1,
-.hero-container h2,
 .hero-container p {
-  color: #0c0c0c;
+  color: var(--clr-black);
 }
 
 .hero-container h1 {
-  line-height: 5rem;
+  line-height: 8rem;
 }
 
 .hero-container h2 {
-  line-height: 5rem;
-  color: #264653;
+  line-height: 8rem;
+  color: var(--clr-darkblue);
 }
 
 .hero-container p {
-  font-size: 1rem;
-  font-weight: 400;
   text-align: center;
-  line-height: 2rem;
   padding: 2vh 6vw;
 }
 
 .hero-buttons-wrapper {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   margin-top: 2.5vh;
 }
 
@@ -47,32 +43,32 @@
 .hero-button-b {
   cursor: pointer;
   border-radius: 15px;
-  padding: 1rem;
-  width: 8rem;
-  font-size: 0.75rem;
+  padding: 1.5rem;
+  width: 130px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 .hero-button-a {
-  background: #2a9d8f;
-  color: #fcfcfc;
-  border: solid 1.5px #2a9d8f;
+  background: var(--clr-green);
+  color: var(--clr-white);
+  border: solid 1.5px var(--clr-green);
 }
 
 .hero-button-b {
-  background: #fcfcfc;
-  color: #f4a261;
-  border: solid 1.5px #f4a261;
+  background: var(--clr-white);
+  color: var(--clr-lightorange);
+  border: solid 1.5px var(--clr-lightorange);
 }
 
 .hero-button-a:hover {
-  background: #264653;
-  border: #264653 solid 1.5px;
+  background: var(--clr-darkblue);
+  border: var(--clr-darkblue) solid 1.5px;
   transition: all 0.3s ease-in-out;
 }
 
 .hero-button-b:hover {
-  background: #f4a261;
+  background: var(--clr-lightorange);
   color: #fcfcfc;
   transition: all 0.3s ease-in-out;
 }
@@ -91,29 +87,29 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .hero-socials a {
-  border: solid 1.5px #0c0c0c;
+  border: solid 1.5px var(--clr-black);
   width: 35px;
   height: 35px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #0c0c0c;
+  color: var(--clr-black);
 }
 
 .hero-socials a:hover {
-  border: #2a9d8f solid 1.5px;
-  color: #2a9d8f;
+  border: var(--clr-green) solid 1.5px;
+  color: var(--clr-green);
   transform: scale(1.15);
   transition: all 0.3s ease-in-out;
 }
 
 .social-icon {
-  scale: 1.25;
+  scale: 2;
 }
 
 .hero-scroll-down-container {
@@ -121,16 +117,15 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  gap: 2.5rem;
+  gap: 4rem;
   padding: 0.25vh 0;
 }
 
 .scroll-down-icon {
-  scale: 1.5;
+  scale: 2.5;
 }
 
 .scroll-down-text {
   transform: rotate(270deg);
-  font-size: 0.75rem;
-  font-weight: 400;
+  font-size: 1.25rem;
 }

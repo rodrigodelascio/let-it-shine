@@ -5,9 +5,9 @@
   justify-content: space-between;
   background: linear-gradient(
     to left top,
-    #fee2ebcf 0%,
-    #fcfcfc 50%,
-    #def7fad0 100%
+    var(--clr-lightpink) 0%,
+    var(--clr-white) 50%,
+    var(--clr-lightblue) 100%
   );
 }
 
@@ -30,34 +30,34 @@
 
 .services-header-container {
   display: flex;
-  gap: 1.5rem;
+  gap: 2.5rem;
   align-items: center;
   padding-left: 1vw;
 }
 
 .dash-icon {
-  scale: 2.5;
-  color: #e76f51;
+  scale: 4;
+  color: var(--clr-brightorange);
 }
 
 .services-container h1 {
-  font-size: 1.75rem;
-  color: #e76f51;
+  font-size: 2.75rem;
+  color: var(--clr-brightorange);
 }
 
 .services-container h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 8vh;
-  color: #0c0c0c;
+  color: var(--clr-black);
 }
 
 .services-container span {
-  color: #0081a7;
+  color: var(--clr-blue);
 }
 
 .services-container p {
   line-height: 3.5vh;
-  color: #0c0c0c;
+  color: var(--clr-black);
 }
 
 .cleaning-products-container {
@@ -77,28 +77,28 @@
 }
 
 .green-number {
-  background: #2a9d8f;
-  color: #fcfcfc;
+  background: var(--clr-green);
+  color: var(--clr-white);
 }
 
 .blue-number {
-  background: #0081a7;
-  color: #fcfcfc;
+  background: var(--clr-blue);
+  color: var(--clr-white);
 }
 
 .orange-number {
-  background: #f4a261;
-  color: #fcfcfc;
+  background: var(--clr-lightorange);
+  color: var(--clr-white);
 }
 
-.services-polka-dots {
-  background-image: radial-gradient(#0081a7 20%, #fcfcfc00 20%);
+/* .services-polka-dots {
+  background-image: radial-gradient(var(--clr-blue) 20%, #fcfcfc00 20%);
   background-position: 0 0;
   background-size: 15px 15px;
   height: 100px;
   width: 150px;
   position: absolute;
   right: 5vw;
-  bottom: 12.5rem;
+  bottom: 20rem;
   z-index: 1;
-}
+} */
