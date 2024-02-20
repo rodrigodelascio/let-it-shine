@@ -73,6 +73,7 @@
 }
 
 .services-cards-container {
+  margin: auto 0;
   gap: 5vh;
   z-index: 2;
   flex-wrap: wrap;
@@ -102,7 +103,7 @@
   height: 100px;
   width: 150px;
   position: absolute;
-  right: 5vw;
-  bottom: 22.5%;
+  right: 4.5vw;
+  bottom: 0;
   z-index: -1;
 }

@@ -25,11 +25,11 @@
   width: 85px;
   padding-left: 1rem;
   opacity: 0.85;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer-logo:hover {
   transform: scale(1.15);
-  transition: all 0.3s ease-in-out;
 }
 
 .hero-socials {
@@ -47,13 +47,13 @@
   border-radius: 50%;
   font-size: 1.5rem;
   color: var(--clr-black);
+  transition: all 0.3s ease-in-out;
 }
 
 .hero-socials a:hover {
   border: var(--clr-green) solid 1.5px;
   color: var(--clr-green);
   transform: scale(1.15);
-  transition: all 0.3s ease-in-out;
 }
 
 .footer-text {
@@ -73,9 +73,9 @@
 .footer-link {
   color: var(--clr-black);
   font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer-link:hover {
   font-size: 1.4rem;
-  transition: all 0.3s ease-in-out;
 }
