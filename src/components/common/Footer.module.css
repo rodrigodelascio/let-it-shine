@@ -38,13 +38,14 @@
 }
 
 .hero-socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: solid 1.5px var(--clr-black);
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 1.5rem;
   color: var(--clr-black);
 }
 
@@ -53,10 +54,6 @@
   color: var(--clr-green);
   transform: scale(1.15);
   transition: all 0.3s ease-in-out;
-}
-
-.social-icon {
-  scale: 1.25;
 }
 
 .footer-text {

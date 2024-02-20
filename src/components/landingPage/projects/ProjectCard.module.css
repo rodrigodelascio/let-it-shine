@@ -5,7 +5,7 @@
   padding: 2.5rem;
   border-radius: 7.5px;
   background: var(--clr-white);
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   width: 27.5vw;
 }
 
@@ -34,23 +34,33 @@
 }
 
 .card-text-container h3 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
+  font-weight: 700;
   letter-spacing: 0.15rem;
 }
 
 .card-link-text {
   font-size: 1.25rem;
+  font-weight: 1000;
+  letter-spacing: 0.05rem;
 }
 
 .arrow-up-icon {
   color: var(--clr-blue);
   padding-top: 1.5px;
-  scale: 2;
+  font-size: 2rem;
+  font-weight: 1000;
 }
 
 .card-link {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 1vw;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-link:hover {
+  scale: 1.2;
 }

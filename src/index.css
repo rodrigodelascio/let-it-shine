@@ -3,6 +3,7 @@
 :root {
   scroll-behavior: smooth;
 
+  /* Colour Pallet */
   --clr-white: hsl(0, 0%, 99%);
   --clr-black: hsl(0, 0%, 5%);
   --clr-darkblue: hsl(197, 37%, 24%);
@@ -32,31 +33,6 @@ body {
   background: var(--clr-white);
   color: var(--clr-black);
   box-sizing: border-box;
-}
-
-h1 {
-  font-size: 5rem;
-  font-weight: 800;
-}
-
-h2 {
-  font-size: 4rem;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-h4 {
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-
-p {
-  font-size: 1.6rem;
-  line-height: 2.5rem;
 }
 
 ol,

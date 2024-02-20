@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
   padding: 4vh 6vw;
 }
 
 .nav-link {
   color: var(--clr-black);
   font-size: 1.5rem;
-  font-weight: 900;
+  font-weight: 1000;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-link:hover {
@@ -17,18 +17,17 @@
   text-underline-offset: 7.5px;
   text-decoration-thickness: 3.5px;
   color: var(--clr-green);
-  transition: all 0.3s ease-in-out;
 }
 
 .nav-logo {
   width: 125px;
   cursor: pointer;
   opacity: 0.85;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-logo:hover {
   transform: scale(1.15);
-  transition: all 0.3s ease-in-out;
 }
 
 .hamburger-menu-icon,

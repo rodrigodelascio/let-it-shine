@@ -13,12 +13,15 @@
 }
 
 .contact-text-wrapper h1 {
+  font-size: 5rem;
+  font-weight: 900;
   padding-bottom: 1.5rem;
   text-transform: capitalize;
 }
 
 .contact-text-wrapper h2 {
   font-size: 2.5rem;
+  font-weight: 800;
   color: var(--clr-darkblue);
 }
 
@@ -26,7 +29,7 @@
   display: flex;
   justify-content: space-between;
   gap: 8rem;
-  padding: 6vh 2vw;
+  padding: 6vh 1vw;
 }
 
 .form-wrapper {
@@ -54,6 +57,7 @@ select {
   border-radius: 5px;
   margin-bottom: 0.75rem;
   padding: 0.75rem;
+  font-size: 1.25rem;
 }
 
 input {
@@ -64,13 +68,10 @@ input {
 select {
   height: 4rem;
   background: var(--clr-white);
-  font-weight: 700;
-  font-size: 1.25rem;
 }
 
 textarea {
   height: 20rem;
-  resize: none;
   background: var(--clr-white);
 }
 
@@ -79,6 +80,10 @@ textarea:focus,
 select:focus {
   outline: solid var(--clr-green) 0.3rem;
   border: none;
+}
+
+select:hover {
+  cursor: pointer;
 }
 
 .form-submit-button-wrapper {
@@ -95,11 +100,16 @@ select:focus {
   margin-top: 1vh;
   height: 4rem;
   width: 100%;
+  font-size: 1.5rem;
+  font-weight: 1000;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
 }
 
 .form-submit-button:hover {
   background: var(--clr-darkblue);
-  border: none;
 }
 
 .contact-details-wrapper {
@@ -115,6 +125,8 @@ select:focus {
 }
 
 .contact-details-wrapper p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
   padding-bottom: 1.5rem;
 }
 

@@ -20,16 +20,22 @@
 }
 
 .hero-container h1 {
+  font-size: 5rem;
+  font-weight: 800;
   line-height: 8rem;
   text-transform: capitalize;
 }
 
 .hero-container h2 {
+  font-size: 4rem;
+  font-weight: 700;
   line-height: 8rem;
   color: var(--clr-darkblue);
 }
 
 .hero-container p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
   text-align: center;
   padding: 2vh 6vw;
 }
@@ -45,9 +51,11 @@
   cursor: pointer;
   border-radius: 15px;
   padding: 1.5rem;
-  width: 130px;
+  width: 15rem;
   font-size: 1.25rem;
   font-weight: 700;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .hero-button-a {
@@ -92,6 +100,7 @@
 }
 
 .hero-socials a {
+  font-size: 2rem;
   border: solid 1.5px var(--clr-black);
   width: 35px;
   height: 35px;
@@ -100,17 +109,13 @@
   justify-content: center;
   align-items: center;
   color: var(--clr-black);
+  transition: all 0.3s ease-in-out;
 }
 
 .hero-socials a:hover {
   border: var(--clr-green) solid 1.5px;
   color: var(--clr-green);
   transform: scale(1.15);
-  transition: all 0.3s ease-in-out;
-}
-
-.social-icon {
-  scale: 2;
 }
 
 .hero-scroll-down-container {
@@ -118,7 +123,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  gap: 4rem;
+  gap: 5rem;
   padding: 0.25vh 0;
 }
 

@@ -14,6 +14,7 @@
   text-align: center;
   padding: 0 25vw;
   font-size: 3rem;
+  font-weight: 1000;
 }
 
 .projects-header-container span {
@@ -26,6 +27,5 @@
   justify-content: center;
   gap: 2vw;
   padding: 4vh 6vw;
-  z-index: 2;
   margin-bottom: 10vh;
 }
