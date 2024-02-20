@@ -3,9 +3,12 @@ import styles from "./ContactHero.module.css";
 const ContactHero = () => {
   return (
     <div className={styles["hero-container"]}>
+      <div className={styles["hero-image-wrapper"]}>
+        <h1 className={styles["page-title"]}>Contact us</h1>
+      </div>
       <div className={styles["contact-text-wrapper"]}>
-        <h1>We are here for you</h1>
-        <h2>Let us know how we can help and we'll get back to you ASAP</h2>
+        <h2>We are here for you</h2>
+        <h3>Let us know how we can help and we'll get back to you ASAP</h3>
       </div>
       <div className={styles["lower-section-container"]}>
         <div className={styles["form-wrapper"]}>
