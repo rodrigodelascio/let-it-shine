@@ -1,6 +1,5 @@
 .services-wrapper {
   min-height: 95vh;
-  position: relative;
   display: flex;
   justify-content: space-between;
   background: linear-gradient(
@@ -74,6 +73,7 @@
   gap: 5vh;
   z-index: 2;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .green-number {
@@ -91,7 +91,8 @@
   color: var(--clr-white);
 }
 
-/* .services-polka-dots {
+.services-cards-container::after {
+  content: "";
   background-image: radial-gradient(var(--clr-blue) 20%, #fcfcfc00 20%);
   background-position: 0 0;
   background-size: 15px 15px;
@@ -99,6 +100,6 @@
   width: 150px;
   position: absolute;
   right: 5vw;
-  bottom: 20rem;
-  z-index: 1;
-} */
+  bottom: 22.5%;
+  z-index: -1;
+}

@@ -12,7 +12,6 @@ const LandingProjects = () => {
           You might be interested in <br />
           <span>a variety of our projects</span>
         </h1>
-        <div className={styles["projects-polka-dots"]}></div>
       </div>
       <div className={styles["projects-cards-container"]}>
         <ProjectCard
