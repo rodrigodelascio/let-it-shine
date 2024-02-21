@@ -4,8 +4,8 @@
       hsla(173, 58%, 39%, 0.75),
       hsla(194, 100%, 33%, 0.75)
     ),
-    url(../../../assets/images/cleaningSurface.jpg);
-  background-position: bottom;
+    url(../../../assets/images/cleaningProductsBrush.jpg);
+  background-position: top;
   background-repeat: no-repeat;
   height: 50vh;
   position: relative;
