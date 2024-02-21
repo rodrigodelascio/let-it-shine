@@ -21,6 +21,10 @@
   width: 35%;
 }
 
+.footer-logo-container {
+  width: fit-content;
+}
+
 .footer-logo {
   width: 85px;
   padding-left: 1rem;
@@ -77,5 +81,6 @@
 }
 
 .footer-link:hover {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  color: var(--clr-darkblue);
 }

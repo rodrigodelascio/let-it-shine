@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className={styles["footer-container"]}>
       <section className={styles["footer-images-container"]}>
-        <Link to="/">
+        <Link to="/" className={styles["footer-logo-container"]}>
           <img src={logo} alt="logo" className={styles["footer-logo"]} />
         </Link>
         <div className={styles["hero-socials"]}>
