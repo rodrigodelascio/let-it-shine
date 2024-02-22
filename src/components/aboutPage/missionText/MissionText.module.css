@@ -1,0 +1,44 @@
+.mission-section-wrapper {
+  margin: 8vh 6vw;
+}
+
+.mission-header-container {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  margin: 2vh 0;
+}
+
+.dash-icon {
+  scale: 6;
+  margin: 0 1.25rem 0 2rem;
+  color: var(--clr-green);
+}
+
+.header-title {
+  font-size: 4rem;
+  font-weight: 1000;
+  color: var(--clr-green);
+}
+
+.header-subtitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--clr-black);
+  width: calc((100% - 8rem) / 2);
+}
+
+.header-subtitle span {
+  color: var(--clr-yellow);
+}
+
+.mission-text {
+  width: calc((100% - 8rem) / 2);
+}
+
+.mission-text-container p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin: 2vh 0;
+}
