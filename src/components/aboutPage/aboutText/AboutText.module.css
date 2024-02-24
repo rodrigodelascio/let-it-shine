@@ -1,8 +1,7 @@
 .about-section-container {
   max-width: 120rem;
   margin: 0 auto;
-  margin-top: 5vh;
-  padding: 4rem 0;
+  padding: 8rem 0;
   border-color: transparent;
   border-style: solid;
   border-width: 0 6vw;
@@ -15,7 +14,6 @@
   display: flex;
   gap: 2.5rem;
   align-items: center;
-  margin: 2vh 0;
 }
 
 .dash-icon {
@@ -28,12 +26,14 @@
   font-size: 4rem;
   font-weight: 1000;
   color: var(--clr-blue);
+  margin-bottom: 1.5rem;
 }
 
 .header-subtitle {
   font-size: 1.75rem;
   font-weight: 700;
   color: var(--clr-black);
+  margin-bottom: 2rem;
 }
 
 .header-subtitle span {
@@ -49,7 +49,6 @@
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 3rem;
-  margin: 2vh 0;
 }
 
 .about-image-container {

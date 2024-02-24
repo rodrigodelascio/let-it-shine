@@ -1,22 +1,23 @@
+.section-background-container {
+  background: var(--clr-lightgray);
+}
+
 .mission-section-container {
   max-width: 120rem;
   margin: 0 auto;
-  margin-bottom: 10vh;
-  padding: 4rem 0;
+  padding: 8rem 0;
   border-color: transparent;
   border-style: solid;
   border-width: 0 6vw;
   box-sizing: content-box;
   display: flex;
   gap: 8rem;
-  background: var(--clr-lightgray);
 }
 
 .mission-header-container {
   display: flex;
   gap: 2.5rem;
   align-items: center;
-  margin: 2vh 0;
 }
 
 .dash-icon {
@@ -29,12 +30,14 @@
   font-size: 4rem;
   font-weight: 1000;
   color: var(--clr-green);
+  margin-bottom: 1.5rem;
 }
 
 .header-subtitle {
   font-size: 1.75rem;
   font-weight: 700;
   color: var(--clr-black);
+  margin-bottom: 2rem;
 }
 
 .header-subtitle span {
@@ -50,7 +53,6 @@
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 3rem;
-  margin: 2vh 0;
 }
 
 .mission-image-container {
