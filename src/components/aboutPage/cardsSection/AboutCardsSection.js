@@ -40,8 +40,8 @@ const AboutCardsSection = () => {
             <BsFillPiggyBankFill className={styles["card-icon"]} />
             <h3 className={styles["card-title"]}>Our Prices</h3>
             <p className={styles["card-text"]}>
-              We're committed to offer fair pricing, building long-term
-              relationships with our clients
+              We're committed to offering fair prices, building long-term
+              relationships with clients
             </p>
           </div>
         </div>
