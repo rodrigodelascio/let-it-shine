@@ -73,13 +73,11 @@
 .hero-button-a:hover {
   background: var(--clr-darkblue);
   border: var(--clr-darkblue) solid 1.5px;
-  transition: all 0.3s ease-in-out;
 }
 
 .hero-button-b:hover {
   background: var(--clr-lightorange);
   color: #fcfcfc;
-  transition: all 0.3s ease-in-out;
 }
 
 .hero-lower-section-container {
