@@ -23,11 +23,10 @@ const AboutText = () => {
                 expectations for both residential and commercial properties.
               </p>
               <p>
-                Let It Shine was born from a desire to provide unparalleled
-                cleaning services with a personal touch. We believe that clean
-                spaces shouldn't be a luxury, but a standard for everyone to
-                enjoy. That's why we offer a range of customized cleaning
-                solutions tailored to your specific needs and budget.
+                We believe that clean spaces shouldn't be a luxury, but a
+                standard for everyone to enjoy. That's why we offer a range of
+                customized cleaning solutions tailored to your specific needs
+                and budget.
               </p>
               <p>
                 Whether you're a busy homeowner looking for a break from the
