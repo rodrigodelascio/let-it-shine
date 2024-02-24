@@ -45,6 +45,7 @@ const AboutText = () => {
         <iframe
           src="https://lottie.host/embed/9626666f-4f5a-4039-83fd-65a638f71cbe/uskP7xaS4J.json"
           className={styles["about-animation"]}
+          title="about animation"
         ></iframe>
       </div>
     </div>

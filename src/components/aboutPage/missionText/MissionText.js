@@ -6,9 +6,10 @@ const MissionText = () => {
     <div className={styles["mission-section-container"]}>
       <div className={styles["mission-image-container"]}>
         <iframe
-          src="https://lottie.host/embed/1bcc25e7-ca15-4395-b2d9-624946bb2e1c/IknKFVa3nE.json"
+          src="https://lottie.host/embed/499ec791-9a2e-4786-aa6d-3a28909f82dd/39X5OHX8ev.json"
           className={styles["mission-animation"]}
-        ></iframe>
+          title="mission animation"
+        />
       </div>
       <div className={styles["mission-text-container"]}>
         <div className={styles["mission-header-container"]}>

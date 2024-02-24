@@ -4,9 +4,9 @@
   justify-content: space-between;
   background: linear-gradient(
     to left top,
-    var(--clr-lightpink) 0%,
+    hsla(341, 93%, 94%, 0.812) 0%,
     var(--clr-white) 50%,
-    var(--clr-lightblue) 100%
+    hsla(186, 74%, 93%, 0.816) 100%
   );
 }
 

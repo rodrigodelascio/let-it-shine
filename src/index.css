@@ -12,8 +12,7 @@
   --clr-yellow: hsl(43, 74%, 66%);
   --clr-lightorange: hsl(27, 87%, 67%);
   --clr-brightorange: hsl(12, 76%, 61%);
-  --clr-lightpink: hsla(341, 93%, 94%, 0.812);
-  --clr-lightblue: hsla(186, 74%, 93%, 0.816);
+  --clr-lightgray: hsl(0, 0%, 96%);
 }
 
 html {
