@@ -1,17 +1,24 @@
-.hero-wrapper {
-  min-height: 80vh;
-}
-
-.hero-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 6vh 10vw 3vh 10vw;
+.hero-section-container {
+  min-height: 70vh;
   background-image: url(../../../assets/images/landingBG1.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.hero-wrapper {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 8rem 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0 6vw;
+  box-sizing: content-box;
+}
+
+.hero-container {
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .hero-container h1,
@@ -42,6 +49,7 @@
 
 .hero-buttons-wrapper {
   display: flex;
+  justify-content: center;
   gap: 1.5rem;
   margin-top: 2.5vh;
 }
@@ -83,11 +91,11 @@
 .hero-lower-section-container {
   display: flex;
   justify-content: space-between;
-  padding: 6vh 6vw;
+  padding: 0 6vw 10rem 6vw;
   background-image: url(../../../assets/images/landingBG2.png);
-  background-position: top;
+  background-position: top right;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 80%;
 }
 
 .hero-socials {
@@ -122,7 +130,7 @@
   justify-content: flex-end;
   align-items: center;
   gap: 5rem;
-  padding: 0.25vh 0;
+  padding: 0.5vh 0;
 }
 
 .scroll-down-icon {

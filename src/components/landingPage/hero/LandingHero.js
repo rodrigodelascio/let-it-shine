@@ -9,24 +9,26 @@ import {
 
 const LandingHero = () => {
   return (
-    <div className={styles["hero-wrapper"]}>
-      <section className={styles["hero-container"]}>
-        <h1>Cleaning services</h1>
-        <h2>For your workplace or home</h2>
-        <p>
-          Elevate your environment with our expert touch, because your space
-          deserves to shine as bright as you do. Discover a new standard of
-          clean with us. Let It Shine!
-        </p>
-        <div className={styles["hero-buttons-wrapper"]}>
-          <Link to="/services" className={styles["hero-button-link"]}>
-            <button className={styles["hero-button-a"]}>Our Services</button>
-          </Link>
-          <Link to="/contact" className={styles["hero-button-link"]}>
-            <button className={styles["hero-button-b"]}>Contact Us</button>
-          </Link>
-        </div>
-      </section>
+    <div className={styles["hero-section-container"]}>
+      <div className={styles["hero-wrapper"]}>
+        <section className={styles["hero-container"]}>
+          <h1>Cleaning services</h1>
+          <h2>For your workplace or home</h2>
+          <p>
+            Elevate your environment with our expert touch, because your space
+            deserves to shine as bright as you do. Discover a new standard of
+            clean with us. Let It Shine!
+          </p>
+          <div className={styles["hero-buttons-wrapper"]}>
+            <Link to="/services" className={styles["hero-button-link"]}>
+              <button className={styles["hero-button-a"]}>Our Services</button>
+            </Link>
+            <Link to="/contact" className={styles["hero-button-link"]}>
+              <button className={styles["hero-button-b"]}>Contact Us</button>
+            </Link>
+          </div>
+        </section>
+      </div>
       <section className={styles["hero-lower-section-container"]}>
         <div className={styles["hero-socials"]}>
           <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">

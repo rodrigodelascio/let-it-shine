@@ -55,12 +55,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .about-animation {
-  width: 115%;
-  height: 115%;
+  width: 110%;
+  height: 110%;
   border: none;
   outline: none;
 }

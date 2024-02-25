@@ -20,6 +20,7 @@
 .cards-wrapper {
   display: flex;
   gap: 4rem;
+  box-sizing: border-box;
 }
 
 .card {
@@ -59,6 +60,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 6rem;
+  box-sizing: border-box;
 }
 
 .about-card-button {
