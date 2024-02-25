@@ -1,5 +1,16 @@
+.form-section-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 8rem 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0 6vw;
+  box-sizing: content-box;
+}
+
 .contact-text-wrapper {
   text-align: center;
+  margin-bottom: 2vh;
 }
 
 .contact-text-wrapper h2 {
@@ -18,9 +29,10 @@
 .lower-section-container {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   gap: 8rem;
-  padding: 4vh 8vw 10vh 8vw;
-  margin: 3vh 0 6vh 0;
+  padding: 4vh 0;
+  box-sizing: border-box;
 }
 
 .form-wrapper {
