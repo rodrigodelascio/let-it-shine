@@ -1,5 +1,4 @@
 .hero-section-container {
-  min-height: 70vh;
   background-image: url(../../../assets/images/landingBG1.png);
   background-position: top;
   background-repeat: no-repeat;
@@ -128,9 +127,10 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
   gap: 5rem;
   padding: 0.5vh 0;
+  position: relative;
 }
 
 .scroll-down-icon {
@@ -140,4 +140,8 @@
 .scroll-down-text {
   transform: rotate(270deg);
   font-size: 1.25rem;
+  width: max-content;
+  position: absolute;
+  right: -3rem;
+  top: 4.5rem;
 }

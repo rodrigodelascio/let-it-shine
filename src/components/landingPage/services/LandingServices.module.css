@@ -1,7 +1,4 @@
-.services-wrapper {
-  min-height: 95vh;
-  display: flex;
-  justify-content: space-between;
+.section-background-container {
   background: linear-gradient(
     to left top,
     hsla(341, 93%, 94%, 0.812) 0%,
@@ -10,21 +7,26 @@
   );
 }
 
+.services-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 8rem 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0 6vw;
+  box-sizing: content-box;
+}
+
 .services-container,
 .services-cards-container {
-  display: flex;
-  flex-direction: column;
-  padding: 4vh 6vw;
-  margin-top: 10vh;
-}
-
-.services-container {
-  width: 50%;
-}
-
-.services-cards-container {
-  width: 50%;
-  padding-right: 8vw;
+  /* display: flex;
+  flex-direction: column; */
+  width: calc((100% - 8rem) / 2);
+  box-sizing: border-box;
 }
 
 .services-header-container {
@@ -69,15 +71,16 @@
 
 .cleaning-products {
   padding: 4vh 3vw 4vh 0;
-  margin-bottom: 6vh;
 }
 
 .services-cards-container {
-  margin: auto 0;
-  gap: 5vh;
   z-index: 2;
-  flex-wrap: wrap;
   position: relative;
+  padding: 0 1.5vw;
+}
+
+.services-cards-container > *:not(:last-child) {
+  margin-bottom: 4vh;
 }
 
 .green-number {
@@ -103,7 +106,7 @@
   height: 100px;
   width: 150px;
   position: absolute;
-  right: 4.5vw;
-  bottom: 0;
+  right: -1.5rem;
+  bottom: -3rem;
   z-index: -1;
 }
