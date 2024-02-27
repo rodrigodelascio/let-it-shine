@@ -36,7 +36,7 @@ const LandingServices = () => {
           />
           <ServiceCard
             cardNumber={"2"}
-            serviceTitle={"Home Cleaning"}
+            serviceTitle={"Domestic Cleaning"}
             className={styles["blue-number"]}
           />
           <ServiceCard
