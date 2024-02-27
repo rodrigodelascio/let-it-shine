@@ -15,9 +15,12 @@ const Navbar = () => {
 
   const navActiveStyle = ({ isActive }) => {
     return {
-      color: isActive ? "#438451" : "",
-      textDecoration: isActive ? "underline #438451 3.5px" : "",
-      textUnderlineOffset: isActive ? "7.5px" : "",
+      color: isActive ? "var(--clr-green)" : "",
+      pointerEvents: isActive ? "none" : "auto",
+      textDecoration: isActive ? "underline" : "",
+      textDecorationThickness: isActive ? "0.35rem" : "",
+      textUnderlineOffset: isActive ? "0.75rem" : "",
+      textDecorationColor: isActive ? "var(--clr-green)" : "",
     };
   };
 
@@ -52,12 +55,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/"
-              className={styles["nav-link"]}
-              onClick={clickToHide}
-              style={navActiveStyle}
-            >
+            <NavLink to="/" onClick={clickToHide} style={navActiveStyle}>
               <img src={logo} alt="logo" className={styles["nav-logo"]} />
             </NavLink>
           </li>
