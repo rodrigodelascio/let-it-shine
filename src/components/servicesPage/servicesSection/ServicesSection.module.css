@@ -1,0 +1,93 @@
+.services-section-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 8rem 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0 6vw;
+  box-sizing: content-box;
+}
+
+.services-text-container {
+  text-align: center;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+}
+
+.header-title {
+  font-size: 4rem;
+  font-weight: 900;
+  padding-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.header-subtitle {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--clr-darkblue);
+}
+
+.services-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22.5rem, 1fr));
+  gap: 4rem;
+  padding: 8rem 0;
+}
+
+.card {
+  border-radius: 7.5px;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+  width: 5rem;
+  height: 5rem;
+  color: var(--clr-brightorange);
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 1000;
+  color: var(--clr-blue);
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 1rem 0 4rem;
+}
+
+.services-card-button {
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 15rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease-in-out;
+  background: var(--clr-green);
+  color: var(--clr-white);
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.services-card-button:hover {
+  background: var(--clr-darkblue);
+}
