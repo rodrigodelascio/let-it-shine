@@ -31,17 +31,17 @@ const LandingServices = () => {
         <section className={styles["services-cards-container"]}>
           <ServiceCard
             cardNumber={"1"}
-            serviceTitle={"Office Cleaning"}
+            serviceTitle={"Domestic Cleaning"}
             className={styles["green-number"]}
           />
           <ServiceCard
             cardNumber={"2"}
-            serviceTitle={"Domestic Cleaning"}
+            serviceTitle={"Office Cleaning"}
             className={styles["blue-number"]}
           />
           <ServiceCard
             cardNumber={"3"}
-            serviceTitle={"Deep Cleaning"}
+            serviceTitle={"End of Tenancy"}
             className={styles["orange-number"]}
           />
         </section>
