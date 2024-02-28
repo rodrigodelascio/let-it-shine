@@ -22,7 +22,7 @@ const ServicesSection = () => {
         <div className={styles["services-section-container"]}>
           <div className={styles["services-text-container"]}>
             <div className={styles["services-header-container"]}>
-              <h2 className={styles["header-title"]}>A range of services</h2>
+              <h2 className={styles["header-title"]}>A Range of Services</h2>
             </div>
             <h3 className={styles["header-subtitle"]}>
               To boost your productivity and elevate your space
@@ -33,8 +33,8 @@ const ServicesSection = () => {
               <FaHome className={styles["card-icon"]} />
               <h3 className={styles["card-title"]}>Domestic Cleaning</h3>
               <p className={styles["card-text"]}>
-                Tailored professional cleaning, with eco-friendly products, and
-                spotless results
+                Tailored professional cleaning, with reduced chemical products,
+                and spotless results
               </p>
             </div>
             <div className={styles["card"]}>
@@ -65,8 +65,8 @@ const ServicesSection = () => {
               <FaSprayCanSparkles className={styles["card-icon"]} />
               <h3 className={styles["card-title"]}>One Off Cleaning</h3>
               <p className={styles["card-text"]}>
-                One off cleaning for for any occasion, immaculate results, we
-                take care of it
+                One off cleaning for any occasion, immaculate results, we take
+                care of it
               </p>
             </div>
             <div className={styles["card"]}>
