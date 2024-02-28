@@ -67,8 +67,18 @@
 
 .hero-button-a {
   background: var(--clr-green);
+  background-image: linear-gradient(
+    to bottom right,
+    hsla(173, 58%, 39%, 0.75),
+    hsla(194, 100%, 33%, 0.75)
+  );
   color: var(--clr-white);
   border: solid 1.5px var(--clr-green);
+  border-image: linear-gradient(
+    to right,
+    hsla(173, 58%, 39%, 0.75),
+    hsla(194, 100%, 33%, 0.75)
+  );
 }
 
 .hero-button-b {
@@ -79,11 +89,31 @@
 
 .hero-button-a:hover {
   background: var(--clr-darkblue);
+  background-image: linear-gradient(
+    to bottom right,
+    hsla(194, 100%, 33%, 0.75),
+    hsla(197, 37%, 24%, 0.75)
+  );
+  border-image: linear-gradient(
+    to bottom right,
+    hsla(194, 100%, 33%, 0.75),
+    hsla(197, 37%, 24%, 0.75)
+  );
   border: var(--clr-darkblue) solid 1.5px;
 }
 
 .hero-button-b:hover {
   background: var(--clr-lightorange);
+  background-image: linear-gradient(
+    to bottom right,
+    hsla(27, 87%, 67%, 0.75),
+    hsla(12, 76%, 61%, 0.75)
+  );
+  border-image: linear-gradient(
+    to right,
+    hsla(27, 87%, 67%, 0.75),
+    hsla(12, 76%, 61%, 0.75)
+  );
   color: #fcfcfc;
 }
 
