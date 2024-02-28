@@ -67,17 +67,27 @@
   cursor: pointer;
   border-radius: 15px;
   padding: 1.5rem;
-  width: 15rem;
+  width: 20rem;
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
   transition: all 0.3s ease-in-out;
   background: var(--clr-green);
   color: var(--clr-white);
+  background-image: linear-gradient(
+    to bottom right,
+    hsla(173, 58%, 39%, 0.75),
+    hsla(194, 100%, 33%, 0.75)
+  );
   border: none;
   transition: all 0.3s ease-in-out;
 }
 
 .about-card-button:hover {
   background: var(--clr-darkblue);
+  background-image: linear-gradient(
+    to bottom right,
+    hsla(194, 100%, 33%, 0.75),
+    hsla(197, 37%, 24%, 0.75)
+  );
 }
