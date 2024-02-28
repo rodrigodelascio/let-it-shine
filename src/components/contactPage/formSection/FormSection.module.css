@@ -98,6 +98,11 @@ select:hover {
 .form-submit-button {
   background: var(--clr-green);
   color: var(--clr-white);
+  background-image: linear-gradient(
+    to bottom right,
+    hsla(173, 58%, 39%, 0.75),
+    hsla(194, 100%, 33%, 0.75)
+  );
   border: none;
   cursor: pointer;
   margin-top: 1vh;
@@ -113,6 +118,11 @@ select:hover {
 
 .form-submit-button:hover {
   background: var(--clr-darkblue);
+  background-image: linear-gradient(
+    to bottom right,
+    hsla(194, 100%, 33%, 0.75),
+    hsla(197, 37%, 24%, 0.75)
+  );
 }
 
 .contact-details-wrapper {
