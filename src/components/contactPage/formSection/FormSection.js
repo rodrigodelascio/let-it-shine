@@ -16,8 +16,11 @@ const FormSection = () => {
             <input type="email" name="user_email" required />
             <label>Subject</label>
             <select name="subject" required>
-              <option value="Home Cleaning">Home Cleaning</option>
+              <option value="Home Cleaning">Domestic Cleaning</option>
               <option value="Office Cleaning">Office Cleaning</option>
+              <option value="End of Tenancy">End of Tenancy</option>
+              <option value="Emergency Cleaning">Emergency Cleaning</option>
+              <option value="One Off Cleaning">One Off Cleaning</option>
               <option value="Other">Other</option>
             </select>
             <label>Message</label>
@@ -37,8 +40,6 @@ const FormSection = () => {
             Don't hesitate to contact us, we'd love to hear from you. Ask us
             anything, don't be shy. Let It Shine!
           </p>
-          <h3>Contact Details</h3>
-          <p>Email: contact.letitshinecs@gmail.com</p>
           <h3>Our Location</h3>
           <p>
             Based in Walton-on-Thames, we extend our cleaning services to nearby

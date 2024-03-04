@@ -134,7 +134,7 @@ select:hover {
 .contact-details-wrapper h3 {
   font-size: 1.75rem;
   font-weight: 700;
-  padding-bottom: 1rem;
+  padding-bottom: 0.25rem;
 }
 
 .contact-details-wrapper p {
