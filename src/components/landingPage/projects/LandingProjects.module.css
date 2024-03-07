@@ -46,6 +46,10 @@
 .projects-description-wrapper h3 {
   font-size: 2rem;
   font-weight: 900;
+  color: var(--clr-black);
+}
+
+.projects-description-wrapper h3 span {
   color: var(--clr-brightorange);
 }
 

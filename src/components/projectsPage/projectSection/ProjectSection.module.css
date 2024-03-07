@@ -6,6 +6,8 @@
   border-style: solid;
   border-width: 0 6vw;
   box-sizing: content-box;
+  display: flex;
+  gap: 8rem;
 }
 
 .project-header-container {

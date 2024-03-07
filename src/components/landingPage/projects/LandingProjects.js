@@ -15,7 +15,9 @@ const LandingProjects = () => {
         </div>
         <div className={styles["projects-description-container"]}>
           <div className={styles["projects-description-wrapper"]}>
-            <h3>Brushes Across Borders: Connecting Global Kids</h3>
+            <h3>
+              Brushes Across Borders: <span>Connecting Global Kids</span>
+            </h3>
             <p>
               Our project was born from a desire to foster empathy and kindness
               among children from diverse backgrounds across the globe. We also
