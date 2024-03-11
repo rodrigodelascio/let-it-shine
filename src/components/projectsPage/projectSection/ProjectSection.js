@@ -1,5 +1,6 @@
 import { BsDashLg } from "react-icons/bs";
 import styles from "./ProjectSection.module.css";
+import SimpleCarousel from "./SimpleCarousel";
 const ProjectSection = () => {
   return (
     <div>
@@ -44,7 +45,13 @@ const ProjectSection = () => {
             </div>
           </div>
           <div className={styles["project-image-container"]}>
-            img carousel placeholder here++
+            <p className={styles["project-image-text-one"]}>
+              How can we <span>change the world?</span>
+            </p>
+            <SimpleCarousel />
+            <p className={styles["project-image-text-two"]}>
+              Connecting people, <span>creating empathy</span>
+            </p>
           </div>
         </div>
       </div>
