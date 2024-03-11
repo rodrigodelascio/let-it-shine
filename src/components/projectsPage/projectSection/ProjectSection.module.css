@@ -51,3 +51,9 @@
   line-height: 3rem;
   margin-bottom: 1.5rem;
 }
+
+.project-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
