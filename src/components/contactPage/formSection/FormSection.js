@@ -51,9 +51,9 @@ const FormSection = () => {
             width="600"
             height="500"
             style={{ border: "0" }}
-            allowfullscreen=""
+            allowFullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
             title="office location"
           ></iframe>
         </div>
