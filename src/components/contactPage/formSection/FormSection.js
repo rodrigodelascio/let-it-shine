@@ -51,7 +51,6 @@ const FormSection = () => {
             width="600"
             height="500"
             style={{ border: "0" }}
-            allowFullscreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             title="office location"
