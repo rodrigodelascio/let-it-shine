@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import imageOne from "../../../assets/images/cleaningProductsBrush.jpg";
 import imageTwo from "../../../assets/images/cleaningSurface.jpg";
 import imageThree from "../../../assets/images/friendshipCutout.jpeg";
@@ -24,13 +24,21 @@ const SimpleCarousel = () => {
 
   const [slideIndex, setSlideIndex] = useState(0);
 
-  const nextSlide = () => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const nextSlide = useCallback(() => {
     setSlideIndex(slideIndex === slides.length - 1 ? 0 : slideIndex + 1);
-  };
+  });
 
   const prevSlide = () => {
     setSlideIndex(slideIndex === 0 ? slides.length - 1 : slideIndex - 1);
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 4000);
+    return () => clearInterval(interval);
+  }, [slideIndex, nextSlide]);
 
   return (
     <div>

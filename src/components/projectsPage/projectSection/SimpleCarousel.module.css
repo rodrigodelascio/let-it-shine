@@ -1,3 +1,12 @@
+@keyframes mySlider {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .carousel {
   display: flex;
   justify-content: center;
@@ -11,6 +20,7 @@
   border-radius: 7.5px;
   height: 100%;
   object-fit: cover;
+  animation: mySlider 0.25s ease-in-out;
 }
 
 .slide-hidden {
@@ -20,8 +30,8 @@
 .arrow-left,
 .arrow-right {
   position: absolute;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 25px;
+  height: 25px;
   color: var(--clr-white);
   filter: drop-shadow(0 0 2.5px var(--clr-black));
   cursor: pointer;
@@ -38,14 +48,15 @@
 
 .indicators {
   display: flex;
+  align-items: center;
   position: absolute;
   bottom: 1rem;
 }
 
 .indicator {
   background-color: var(--clr-white);
-  height: 0.75rem;
-  width: 0.75rem;
+  height: 9.5px;
+  width: 9.5px;
   border-radius: 100%;
   border: none;
   outline: none;
@@ -57,8 +68,8 @@
 
 .indicator-inactive {
   background-color: var(--clr-darkblue);
-  height: 0.75rem;
-  width: 0.75rem;
+  height: 7.5px;
+  width: 7.5px;
   border-radius: 100%;
   border: none;
   outline: none;
