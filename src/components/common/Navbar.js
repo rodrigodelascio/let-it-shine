@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/Logo_Let_It_Shine.png";
+import mobileLogo from "../../assets/images/mobileLogo.png";
 import { CgMenu, CgClose } from "react-icons/cg";
 import styles from "./Navbar.module.css";
 
@@ -14,23 +15,36 @@ const Navbar = () => {
   };
 
   const navActiveStyle = ({ isActive }) => {
-    return {
-      color: isActive ? "var(--clr-green)" : "",
-      pointerEvents: isActive ? "none" : "auto",
-      textDecoration: isActive ? "underline" : "",
-      textDecorationThickness: isActive ? "0.35rem" : "",
-      textUnderlineOffset: isActive ? "0.75rem" : "",
-      textDecorationColor: isActive ? "var(--clr-green)" : "",
-    };
+    if (!isMobile)
+      return {
+        color: isActive ? "var(--clr-green)" : "",
+        pointerEvents: isActive ? "none" : "auto",
+        textDecoration: isActive ? "underline" : "",
+        textDecorationThickness: isActive ? "0.35rem" : "",
+        textUnderlineOffset: isActive ? "0.75rem" : "",
+        textDecorationColor: isActive ? "var(--clr-green)" : "",
+      };
+    else
+      return {
+        color: isActive ? "var(--clr-yellow)" : "",
+        pointerEvents: isActive ? "none" : "auto",
+      };
   };
 
   return (
     <div>
       <nav className={styles["navbar-wrapper"]}>
+        <NavLink to="/">
+          <img
+            src={mobileLogo}
+            alt="mobile logo"
+            className={styles["responsive-nav-logo"]}
+          />
+        </NavLink>
         <ul
           className={
             !isMobile
-              ? styles["navbar-container"]
+              ? `${styles["navbar-container"]} ${styles["responsive-navbar-reverse"]} `
               : `${styles["navbar-container"]} ${styles["responsive-navbar"]}`
           }
         >
