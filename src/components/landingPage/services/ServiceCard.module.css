@@ -66,3 +66,75 @@
   scale: 1.2;
   opacity: 1;
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (max-width: 1200px) {
+  .card-number-container {
+    margin-right: 2vw;
+  }
+
+  .card-text-container h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card-number-container {
+    width: 80px;
+    height: 80px;
+    margin-right: 1vw;
+  }
+
+  .card-number {
+    font-size: 3rem;
+  }
+
+  .card-text-container h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card-number-container {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card-number {
+    font-size: 2.5rem;
+  }
+
+  .card-text-container {
+    text-align: right;
+  }
+
+  .card-text-container h3 {
+    font-size: 1.25rem;
+  }
+
+  .card-link-text {
+    font-size: 1.1rem;
+    letter-spacing: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .card-container {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+
+    .card-text-container {
+      gap: 3rem;
+      width: 100%;
+      align-items: center;
+      margin: 3rem 0 0 0;
+      padding: 0;
+    }
+
+    .card-number-container {
+      margin: 0;
+    }
+  }
+}
