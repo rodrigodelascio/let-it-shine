@@ -177,3 +177,11 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .services-cards-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+}

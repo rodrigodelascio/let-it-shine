@@ -177,3 +177,46 @@
 }
 
 /* ********** MEDIA QUERIES ********** */
+
+@media screen and (max-width: 768px) {
+  .hero-container h1 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+
+  .hero-container h2 {
+    font-size: 3rem;
+    line-height: 6rem;
+  }
+
+  .hero-container p {
+    padding: 1.5vh 6vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-container h1 {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+
+  .hero-container h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+
+  .hero-container p {
+    padding: 1.5vh 5vw;
+  }
+
+  .hero-buttons-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2.5vh;
+  }
+
+  .hero-button-a,
+  .hero-button-b {
+    width: 100%;
+  }
+}

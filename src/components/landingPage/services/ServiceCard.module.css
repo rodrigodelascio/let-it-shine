@@ -123,6 +123,7 @@
       flex-direction: column;
       text-align: center;
       width: 100%;
+      padding: 2rem 0.5rem;
     }
 
     .card-text-container {
@@ -136,5 +137,40 @@
     .card-number-container {
       margin: 0;
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-container {
+    flex-direction: row;
+    padding: 2.5rem;
+  }
+
+  .card-number-container {
+    width: 85px;
+    height: 85px;
+    margin-left: 0.5vw;
+    margin-right: 3vw;
+  }
+
+  .card-number {
+    font-size: 4rem;
+  }
+
+  .card-text-container {
+    gap: 4rem;
+    width: 72.5%;
+    align-items: flex-end;
+  }
+
+  .card-text-container h3 {
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card-text-container h3 {
+    font-size: 1.5rem;
   }
 }
