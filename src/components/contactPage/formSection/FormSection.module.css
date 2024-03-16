@@ -150,3 +150,53 @@ iframe {
   border-radius: 5px;
   margin-bottom: 0.75rem;
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (max-width: 900px) {
+  .lower-section-container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .form-wrapper,
+  .contact-details-wrapper {
+    width: 100%;
+  }
+
+  .lower-section-container .form-wrapper {
+    order: 2;
+  }
+
+  .contact-details-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .contact-details-text-container {
+    width: 85%;
+  }
+
+  iframe {
+    height: 30vw;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-details-wrapper {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .contact-details-text-container {
+    width: 100%;
+  }
+
+  iframe {
+    height: 35rem;
+    margin-bottom: 4rem;
+  }
+}
