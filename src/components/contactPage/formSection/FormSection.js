@@ -1,6 +1,40 @@
 import styles from "./FormSection.module.css";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const FormSection = () => {
+  const form = useRef();
+
+  const notifySuccess = (res) =>
+    toast.success(`Message successfully sent! ${res.text}`, {
+      position: "top-right",
+    });
+  const notifyError = (err) =>
+    toast.error(`Message not sent! ${err.text}`, {
+      position: "top-right",
+    });
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
+        publicKey: "YOUR_PUBLIC_KEY",
+      })
+      .then(
+        (result) => {
+          notifySuccess(result);
+        },
+        (error) => {
+          notifyError(error);
+        }
+      );
+
+    e.target.reset();
+  };
+
   return (
     <div className={styles["form-section-container"]}>
       <div className={styles["contact-text-wrapper"]}>
@@ -9,7 +43,7 @@ const FormSection = () => {
       </div>
       <div className={styles["lower-section-container"]}>
         <div className={styles["form-wrapper"]}>
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input type="text" name="user_name" required />
             <label>Email</label>
@@ -59,6 +93,7 @@ const FormSection = () => {
           ></iframe>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
