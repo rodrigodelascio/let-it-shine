@@ -68,3 +68,25 @@
   border: none;
   outline: none;
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (max-width: 900px) {
+  .mission-section-container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .mission-text-container,
+  .mission-image-container {
+    width: 100%;
+  }
+
+  .mission-image-container {
+    height: 40rem;
+  }
+
+  .mission-section-container .mission-image-container {
+    order: 2;
+  }
+}
