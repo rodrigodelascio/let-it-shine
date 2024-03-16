@@ -76,3 +76,17 @@
 .project-image-text-two span {
   color: var(--clr-yellow);
 }
+
+/* ********** MEDIA QUERIES ********** */
+
+@media screen and (max-width: 900px) {
+  .project-section-container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .project-text-container,
+  .project-image-container {
+    width: 100%;
+  }
+}
