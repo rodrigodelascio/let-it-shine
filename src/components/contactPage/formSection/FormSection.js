@@ -1,5 +1,5 @@
 import styles from "./FormSection.module.css";
-import { useRef } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -24,7 +24,9 @@ const FormSection = () => {
         `${process.env.REACT_APP_SERVICE_ID}`,
         `${process.env.REACT_APP_TEMPLATE_ID}`,
         form.current,
-        `${process.env.REACT_APP_PUBLIC_KEY}`
+        {
+          publicKey: `${process.env.REACT_APP_PUBLIC_KEY}`,
+        }
       )
       .then(
         (result) => {
