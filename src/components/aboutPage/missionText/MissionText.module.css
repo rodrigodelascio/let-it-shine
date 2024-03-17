@@ -69,6 +69,13 @@
   outline: none;
 }
 
+.link {
+  color: var(--clr-green);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
 /* ********** MEDIA QUERIES ********** */
 
 @media screen and (max-width: 900px) {

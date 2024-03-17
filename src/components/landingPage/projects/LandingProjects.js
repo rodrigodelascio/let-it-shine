@@ -1,6 +1,6 @@
 import styles from "./LandingProjects.module.css";
 import { Link } from "react-router-dom";
-import friendshipCutout from "../../../assets/images/friendshipCutout.jpeg";
+import projectOne from "../../../assets/images/project1.JPG";
 
 const LandingProjects = () => {
   return (
@@ -41,8 +41,8 @@ const LandingProjects = () => {
           </div>
           <div className={styles["projects-image-wrapper"]}>
             <img
-              src={friendshipCutout}
-              alt="friendship cutout"
+              src={projectOne}
+              alt="exhibition of artworks from children"
               className={styles["projects-image"]}
             />
           </div>

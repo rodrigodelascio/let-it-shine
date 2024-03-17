@@ -1,4 +1,5 @@
 import styles from "./MissionText.module.css";
+import { Link } from "react-router-dom";
 import { BsDashLg } from "react-icons/bs";
 
 const MissionText = () => {
@@ -40,8 +41,11 @@ const MissionText = () => {
                 Let It Shine isn't just about cleaning surfaces; it's about
                 illuminating the potential within every space, enabling
                 individuals and businesses to shine brighter. Join us on this
-                mission of cleanliness and well-being. Contact Let It Shine
-                today and let us help your space and your life truly shine.
+                mission of cleanliness and well-being.{" "}
+                <Link to="/contact" className={styles["link"]}>
+                  Contact Let It Shine today
+                </Link>{" "}
+                and let us help your space and your life truly shine.
               </p>
             </div>
           </div>

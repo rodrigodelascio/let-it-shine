@@ -1,4 +1,5 @@
 import styles from "./AboutText.module.css";
+import { Link } from "react-router-dom";
 import { BsDashLg } from "react-icons/bs";
 
 const AboutText = () => {
@@ -24,9 +25,11 @@ const AboutText = () => {
               </p>
               <p>
                 We believe that clean spaces shouldn't be a luxury, but a
-                standard for everyone to enjoy. That's why we offer a range of
-                customized cleaning solutions tailored to your specific needs
-                and budget.
+                standard for everyone to enjoy. That's why we offer{" "}
+                <Link to="/services" className={styles["link"]}>
+                  a range of customized cleaning solutions
+                </Link>{" "}
+                tailored to your specific needs and budget.
               </p>
               <p>
                 Whether you're a busy homeowner looking for a break from the

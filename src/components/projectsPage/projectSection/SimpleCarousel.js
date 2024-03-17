@@ -1,7 +1,8 @@
 import { useState, useEffect, useCallback } from "react";
-import imageOne from "../../../assets/images/cleaningProductsBrush.jpg";
-import imageTwo from "../../../assets/images/cleaningSurface.jpg";
-import imageThree from "../../../assets/images/friendshipCutout.jpeg";
+import projectOne from "../../../assets/images/project1.JPG";
+import projectTwo from "../../../assets/images/project2.JPG";
+import projectThree from "../../../assets/images/project3.jpg";
+import projectFour from "../../../assets/images/project4.JPG";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 
 import styles from "./SimpleCarousel.module.css";
@@ -9,16 +10,20 @@ import styles from "./SimpleCarousel.module.css";
 const SimpleCarousel = () => {
   const slides = [
     {
-      src: imageOne,
-      alt: "image 1 from carousel",
+      src: projectOne,
+      alt: "exhibition of artworks from children",
     },
     {
-      src: imageTwo,
-      alt: "image 2 from carousel",
+      src: projectTwo,
+      alt: "exhibition of artworks from children",
     },
     {
-      src: imageThree,
-      alt: "image 3 from carousel",
+      src: projectThree,
+      alt: "child painting in the UK",
+    },
+    {
+      src: projectFour,
+      alt: "children painting in the UK",
     },
   ];
 
