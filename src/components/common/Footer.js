@@ -1,11 +1,7 @@
 import styles from "./Footer.module.css";
 import logo from "../../assets/images/Logo_Let_It_Shine.png";
 import { Link } from "react-router-dom";
-import {
-  BiLogoInstagramAlt,
-  BiLogoFacebook,
-  BiLogoYoutube,
-} from "react-icons/bi";
+import { BiLogoInstagramAlt } from "react-icons/bi";
 import { SiNextdoor } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 
