@@ -6,6 +6,8 @@ import {
   BiLogoFacebook,
   BiLogoYoutube,
 } from "react-icons/bi";
+import { SiNextdoor } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -17,15 +19,24 @@ const Footer = () => {
           <img src={logo} alt="logo" className={styles["footer-logo"]} />
         </Link>
         <div className={styles["hero-socials"]}>
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/letitshine_project"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BiLogoInstagramAlt className={styles["social-icon"]} />
           </a>
-          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-            <BiLogoFacebook className={styles["social-icon"]} />
+          <a
+            href="https://nextdoor.co.uk/p/wbgR3fHJPgc_?utm_source=share&extras=MTc1OTIxOTYwODAyMDQ%3D&utm_campaign=1710696184808
+https://nextdoor.co.uk/p/wbgR3fHJPgc_?utm_source=share&extras=MTc1OTIxOTYwODAyMDQ%3D&utm_campaign=1710696184808"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiNextdoor className={styles["social-icon"]} />
           </a>
-          <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
-            <BiLogoYoutube className={styles["social-icon"]} />
-          </a>
+          <Link to="/contact">
+            <MdEmail className={styles["social-icon"]} />
+          </Link>
         </div>
         <p className={styles["footer-text"]}>
           © {currentYear} Let It Shine Services Ltd
