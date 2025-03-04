@@ -1,7 +1,7 @@
 {
   "name": "let-it-shine",
   "version": "0.1.0",
-  "homepage": "https://theletitshine.co.uk/",
+  "homepage": "http://let-it-shine.co.uk/",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
