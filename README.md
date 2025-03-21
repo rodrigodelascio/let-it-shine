@@ -28,7 +28,7 @@ This repository contains the code for the Let It Shine Services website, a profe
 
 ## Link
 
-- Live Site URL: [Follow this link](https://theletitshine.co.uk/)
+- Live Site URL: [Follow this link](https://let-it-shine.co.uk/)
 
 ## Built with
 
